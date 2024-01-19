@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+"""
+This code snippet defines a function called 'update_container' that performs the following steps:
+1. Changes the current directory to '/home/smitty/mykuma'.
+2. Pulls the latest images using the 'docker compose' command.
+3. Recreates and brings up the containers using the 'docker compose' command with the options '-d' and '--force-recreate'.
+4. Displays the running Docker containers using the 'docker ps -a' command.
+
+To use this code snippet, simply call the 'update_container' function.
+"""
 
 #import required modules
 import subprocess
